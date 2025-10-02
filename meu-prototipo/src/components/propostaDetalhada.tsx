@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 import { useSearchParams } from 'next/navigation'
 import { useState, useEffect } from 'react'
 
@@ -126,12 +128,9 @@ export default function PropostaDetalhada() {
             </div>
             <h1 className="text-2xl font-bold text-gray-900 mb-2">Erro</h1>
             <p className="text-gray-600 mb-6">{error}</p>
-            <a 
-              href="/" 
-              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              ← Voltar para lista de propostas
-            </a>
+              <Link href="/" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                ← Voltar para lista de propostas
+              </Link>
           </div>
         </div>
       </div>
@@ -150,12 +149,9 @@ export default function PropostaDetalhada() {
             </div>
             <h1 className="text-2xl font-bold text-gray-900 mb-2">Proposta não encontrada</h1>
             <p className="text-gray-600 mb-6">A proposta solicitada não existe.</p>
-            <a 
-              href="/" 
-              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              ← Voltar para lista de propostas
-            </a>
+              <Link href="/" className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                ← Voltar para lista de propostas
+              </Link>
           </div>
         </div>
       </div>
