@@ -1,8 +1,14 @@
 //API Route para download de PDF de propostas usando parâmetros dinâmicos
 import { NextRequest, NextResponse } from 'next/server';
 
-export async function GET(request: NextRequest) {
-  const { id } = request.nextUrl.pathname.split('/').pop() ? { id: request.nextUrl.pathname.split('/').pop() } : { id: undefined };
+interface RouteParams {
+  params: {
+    id: string;
+  };
+}
+
+export async function GET(request: NextRequest, { params }: RouteParams) {
+  const { id } = params;
   
   if (!id) {
     return NextResponse.json(

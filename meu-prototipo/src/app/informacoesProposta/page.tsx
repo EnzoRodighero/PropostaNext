@@ -1,5 +1,5 @@
 import PropostaDetalhada from '@/components/propostaDetalhada';
-import { Suspense } from 'react';
+// Removido Suspense
 import HeaderEFA from '@/components/headerEFA';
 import FooterEFA from '@/components/footerEFA';
 import FooterEFAII from '@/components/footerEFAII';
@@ -23,9 +23,7 @@ export default function InformacoesPropostaPage() {
             }}
           />
           <div style={{ position: 'relative', zIndex: 2 }}>
-            <Suspense fallback={<div>Carregando informações da proposta...</div>}>
-              <PropostaDetalhada />
-            </Suspense>
+            <PropostaDetalhada />
           </div>
         </div>
       <FooterEFA />
