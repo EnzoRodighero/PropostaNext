@@ -1,0 +1,11 @@
+{
+  "proposta_id": 2025999,
+  "cliente": "Teste Campos Ausentes Ltda",
+  "apresentacao": "Proposta simplificada para testar campos opcionais",
+  "escopo": "Este JSON tem apenas alguns campos para testar se o sistema funciona corretamente quando campos estão ausentes.",
+  "req_funcional": [
+    "Funcionalidade básica 1",
+    "Funcionalidade básica 2"
+  ],
+  "investimento": 25000
+}

@@ -1,0 +1,37 @@
+{
+  "proposta_id": 2025002,
+  "dt_proposta": "2025-09-20",
+  "cliente": "EduTech Solutions",
+  "empresa": "CodeMasters Academy",
+  "validade": "30 dias",
+  "apresentacao": "Plataforma de ensino à distância com sistema de videoconferências integrado",
+  "escopo": "Desenvolvimento de plataforma completa de EAD (Ensino à Distância) com sistema próprio de videoconferências, área do aluno, área do professor, sistema de avaliações, certificados digitais e marketplace de cursos.",
+  "req_funcional": [
+    "Portal do aluno com progresso de cursos",
+    "Portal do professor com criação de conteúdo",
+    "Sistema de videoconferências em tempo real",
+    "Upload e streaming de vídeo-aulas",
+    "Sistema de quiz e avaliações automatizadas",
+    "Geração automática de certificados digitais",
+    "Marketplace para venda de cursos",
+    "Sistema de pagamento integrado (PIX, cartão, boleto)",
+    "Chat em tempo real durante aulas",
+    "Fórum de discussão por curso",
+    "Sistema de notas e feedback",
+    "Calendário acadêmico integrado"
+  ],
+  "req_nao_funcional": [
+    "Suporte para 1000 usuários simultâneos em videoconferência",
+    "Streaming de vídeo em qualidade HD (1080p)",
+    "Latência máxima de 200ms para videoconferências",
+    "Interface acessível (WCAG 2.1 AA)",
+    "Compatibilidade com dispositivos móveis e tablets",
+    "Armazenamento em cloud com CDN global",
+    "Segurança LGPD compliant",
+    "Integração com Zoom/Google Meet como backup",
+    "Sistema de cache para vídeos mais assistidos"
+  ],
+  "investimento": 180000,
+  "condicao_comercial": "30% na assinatura, 30% na entrega do MVP com videoconferência (60 dias), 25% na entrega da plataforma completa (120 dias), 15% após 30 dias de homologação",
+  "garantia": "36 meses de suporte técnico, incluindo 18 meses de manutenções evolutivas e atualizações de segurança"
+}

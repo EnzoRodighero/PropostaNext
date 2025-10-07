@@ -1,0 +1,40 @@
+{
+  "proposta_id": 2025003,
+  "dt_proposta": "2025-09-18",
+  "cliente": "RetailMax Comercial",
+  "empresa": "DevCommerce Solutions",
+  "validade": "15 dias",
+  "apresentacao": "E-commerce completo com sistema de gestão integrado e aplicativo mobile",
+  "escopo": "Desenvolvimento de plataforma de e-commerce B2C completa com painel administrativo avançado, sistema de estoque, logística integrada, aplicativo mobile para clientes e sistema de marketplace para vendedores terceiros.",
+  "req_funcional": [
+    "Loja virtual responsiva com catálogo de produtos",
+    "Sistema de busca avançada com filtros",
+    "Carrinho de compras e wishlist",
+    "Checkout simplificado com múltiplas formas de pagamento",
+    "Painel administrativo para gestão de produtos",
+    "Sistema de estoque com controle de variações",
+    "Integração com correios para cálculo de frete",
+    "Sistema de cupons e promoções",
+    "Programa de fidelidade com pontos",
+    "Aplicativo mobile iOS e Android",
+    "Sistema de avaliações e comentários",
+    "Marketplace para vendedores externos",
+    "Sistema de chat para atendimento",
+    "Relatórios de vendas e analytics"
+  ],
+  "req_nao_funcional": [
+    "Capacidade para 50.000 produtos cadastrados",
+    "Suporte a 5.000 usuários simultâneos",
+    "Tempo de carregamento inferior a 3 segundos",
+    "Disponibilidade 99.95% com redundância",
+    "Segurança PCI DSS para pagamentos",
+    "SEO otimizado para motores de busca",
+    "Integração com Google Analytics e Facebook Pixel",
+    "Backup automático de 12 em 12 horas",
+    "CDN para otimização de imagens",
+    "API REST para integrações futuras"
+  ],
+  "investimento": 250000,
+  "condicao_comercial": "40% na assinatura do contrato, 20% na entrega da loja web (45 dias), 20% na entrega do app mobile (75 dias), 15% na entrega do marketplace (105 dias), 5% após go-live e testes de carga",
+  "garantia": "12 meses de garantia total com suporte 24/7, incluindo manutenções corretivas ilimitadas e 3 meses de consultoria pós-lançamento"
+}

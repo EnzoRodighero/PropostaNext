@@ -1,0 +1,36 @@
+{
+  "proposta_id": 2025001,
+  "dt_proposta": "2025-09-22",
+  "cliente": "Inovação Digital Ltda",
+  "empresa": "Sua Empresa de Desenvolvimento",
+  "validade": "60 dias",
+  "apresentacao": "Desenvolvimento de aplicação web completa para gestão de projetos e equipes",
+  "escopo": "Criação de sistema web responsivo para gerenciamento de projetos, controle de tarefas, acompanhamento de equipes e relatórios de produtividade. O sistema incluirá dashboard interativo, sistema de notificações em tempo real e integração com ferramentas de comunicação.",
+  "req_funcional": [
+    "Cadastro e gerenciamento de projetos",
+    "Sistema de tarefas com status e prioridades",
+    "Controle de usuários e permissões por projeto",
+    "Dashboard com gráficos e métricas de produtividade",
+    "Sistema de comentários e comunicação interna",
+    "Calendário integrado com prazos e milestones",
+    "Geração de relatórios em PDF e Excel",
+    "Sistema de notificações por email e push",
+    "Upload e gerenciamento de arquivos por projeto",
+    "Timeline de atividades e histórico de mudanças"
+  ],
+  "req_nao_funcional": [
+    "Arquitetura escalável para até 500 usuários simultâneos",
+    "Tempo de resposta máximo de 1.5 segundos",
+    "Disponibilidade de 99.9% (SLA)",
+    "Interface totalmente responsiva (mobile-first)",
+    "Compatibilidade com Chrome, Firefox, Safari, Edge",
+    "Segurança com autenticação JWT e criptografia AES-256",
+    "Backup automático a cada 6 horas",
+    "Logs completos de auditoria e segurança",
+    "Integração via API REST documentada",
+    "Performance otimizada com cache Redis"
+  ],
+  "investimento": 95000,
+  "condicao_comercial": "35% na assinatura do contrato, 25% na entrega do protótipo funcional (45 dias), 25% na entrega da versão beta completa (75 dias), 15% na entrega final e go-live (105 dias)",
+  "garantia": "24 meses de suporte técnico completo, incluindo 12 meses de manutenções corretivas gratuitas e suporte prioritário via WhatsApp/Email"
+}

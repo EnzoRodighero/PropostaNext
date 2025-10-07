@@ -1,0 +1,42 @@
+{
+  "proposta_id": 2025888,
+  "dt_proposta": "2025-09-22",
+  "cliente": "Teste Campos Extras Ltda",
+  "empresa": "DevTest Solutions",
+  "validade": "30 dias",
+  "apresentacao": "Proposta com campos extras para testar flexibilidade",
+  "escopo": "Sistema básico para testar se campos adicionais aparecem corretamente",
+  "req_funcional": [
+    "Funcionalidade padrão 1",
+    "Funcionalidade padrão 2"
+  ],
+  "investimento": 50000,
+  "condicao_comercial": "50% antecipado, 50% na entrega",
+  "garantia": "12 meses",
+  
+  "_CAMPOS_EXTRAS_ABAIXO_": "--- Campos não previstos no sistema ---",
+  
+  "metodologia": "Metodologia ágil com Scrum",
+  "prazo_entrega": "90 dias úteis",
+  "equipe_responsavel": [
+    "João Silva - Tech Lead",
+    "Maria Santos - Frontend",
+    "Pedro Oliveira - Backend"
+  ],
+  "tecnologias": [
+    "React",
+    "Node.js", 
+    "PostgreSQL",
+    "Docker"
+  ],
+  "observacoes_especiais": "Cliente prefere reuniões semanais às sextas-feiras",
+  "contato_tecnico": {
+    "nome": "Carlos Technical",
+    "email": "carlos@empresa.com",
+    "telefone": "+55 11 99999-9999"
+  },
+  "valor_hora_extra": 150,
+  "desconto_aplicado": "5% para pagamento antecipado",
+  "versao_proposta": "v2.1",
+  "data_ultima_atualizacao": "2025-09-22T10:30:00Z"
+}
